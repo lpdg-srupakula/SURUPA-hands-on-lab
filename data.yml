@@ -8,7 +8,23 @@ jobs:
     name: Job1
     steps: []
     subgraphs: []
-locations: {}
+locations:
+  SRC:
+    mappingDefinitions:
+      "6":
+        database: SURUPA
+        schema: WORKDEV
+      "7":
+        database: SURUPA
+        schema: WORKTEST
+  WORK:
+    mappingDefinitions:
+      "6":
+        database: SURUPA
+        schema: WORKTEST
+      "7":
+        database: SURUPA
+        schema: WORKPROD
 macros: {}
 packages: {}
 projects: {}
