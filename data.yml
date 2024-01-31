@@ -12,11 +12,11 @@ locations:
   SRC:
     mappingDefinitions:
       "6":
-        database: SURUPA
-        schema: WORKDEV
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
       "7":
-        database: SURUPA
-        schema: WORKTEST
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   WORK:
     mappingDefinitions:
       "6":
